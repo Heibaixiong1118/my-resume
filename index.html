@@ -1,11 +1,10 @@
 <!doctype html>
-<html lang="zh-CN">
-<head>
+<html lang="zh-CN" data-immersive-translate-page-theme="dark" class="exported"><script id="allow-copy_script" src="chrome-extension://kkemgiffjdndikokhpoecoloebgeibde/content_scripts/copy.js"></script><head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="AI Agent 开发者的个人简历：Python、FastAPI、大模型应用、RAG 与工具调用项目实践。">
+  <meta name="description" content="围绕 Python、FastAPI 与本地大模型，实践 Agent 工具分发和 RAG 知识检索。关注清晰的实现边界，以及从接口到部署的完整链路。">
   <meta name="theme-color" content="#0c1117">
-  <title>AI Agent 开发者 · 个人简历</title>
+  <title>江伟华 · 个人简历</title>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230c1117'/%3E%3Cpath d='m12 9-7 7 7 7m8-14 7 7-7 7' fill='none' stroke='%23b8ef91' stroke-width='3'/%3E%3C/svg%3E">
   <style>
     :root{color-scheme:dark;--bg:#0c1117;--panel:#121a23;--panel-2:#17212b;--ink:#f0f3f4;--muted:#a5b0bc;--line:#293440;--accent:#b8ef91;--accent-ink:#162611;--radius:20px;font-family:Inter,"Segoe UI","Microsoft YaHei",sans-serif}
@@ -26,16 +25,16 @@
   <header class="site-header"><div class="wrap header-inner">
     <a class="brand" href="#main" aria-label="回到主页顶部"><span class="brand-mark mono" aria-hidden="true">&lt;/&gt;</span><span>个人主页 <small class="mono">/ RESUME</small></span></a>
     <nav class="nav" aria-label="页面导航"><a href="#projects">项目</a><a href="#skills">技能</a><a href="#about">关于</a></nav>
-    <div class="header-actions owner-only"><button class="button" type="button" data-edit>编辑资料</button></div>
+    <div class="header-actions owner-only"><button class="button" type="button" data-edit="">编辑资料</button></div>
   </div></header>
   <main id="main" class="wrap">
     <section class="hero" aria-labelledby="profile-name">
       <div><div class="eyebrow mono">AI APPLICATION DEVELOPMENT</div>
-        <h1 id="profile-name">AI Agent<br>开发者</h1>
+        <h1 id="profile-name">江伟华</h1>
         <p class="hero-role" id="profile-role">大模型应用开发 · 实习 / 校招</p>
         <p class="hero-bio" id="profile-bio">围绕 Python、FastAPI 与本地大模型，实践 Agent 工具分发和 RAG 知识检索。关注清晰的实现边界，以及从接口到部署的完整链路。</p>
-        <div class="hero-actions"><a class="button primary" href="#projects">查看项目</a><button class="button" type="button" id="download-resume"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M5 16v5h14v-5"/></svg>下载简历</button></div>
-        <div class="personal-meta" id="profile-meta" hidden></div>
+        <div class="hero-actions"><a class="button primary" href="#projects">查看项目</a><button class="button" type="button" id="download-resume"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M5 16v5h14v-5"></path></svg>下载简历</button></div>
+        <div class="personal-meta" id="profile-meta"><span>期望城市：深圳</span><span>应届生；可随时到岗</span></div>
       </div>
       <aside class="architecture" aria-label="企业知识助手项目架构">
         <div class="arch-top"><div><span class="arch-label mono">PROJECT / 01</span><h2>AI Agent 企业知识助手</h2></div><span class="arch-icon mono" aria-hidden="true">{ }</span></div>
@@ -46,17 +45,17 @@
     <div class="stack-strip" aria-label="主要技术栈"><span class="label mono">BUILT WITH</span><span>Python</span><i class="separator" aria-hidden="true"></i><span>FastAPI</span><i class="separator" aria-hidden="true"></i><span>Qwen / Ollama</span><i class="separator" aria-hidden="true"></i><span>ChromaDB</span><i class="separator" aria-hidden="true"></i><span>Docker</span></div>
     <section class="section" id="projects" aria-labelledby="projects-title">
       <div class="section-heading"><h2 id="projects-title"><span class="number mono">01</span>项目经历</h2><span class="mono">SELECTED PROJECT</span></div>
-      <article class="project"><div class="project-main"><div><span class="tag">个人项目 · AI 应用</span><h3>AI Agent 企业知识助手</h3><p>面向企业内部制度查询，连接 HTTP 问答接口、本地模型决策与文档检索。让用户通过提问，从本地制度文本中查找相关信息。</p><div class="project-tags"><span>Python 3.12</span><span>FastAPI</span><span>Qwen3 1.7B</span><span>ChromaDB</span><span>Docker Compose</span></div><a class="project-link" id="project-link" hidden target="_blank" rel="noopener noreferrer">查看项目仓库</a></div><div class="project-facts"><div class="fact"><b>4<small>轮</small></b><span>Agent 决策循环上限</span></div><div class="fact"><b>5<small>个</small></b><span>最多检索候选片段</span></div><p class="fact-description">通过轮次限制与检索相关性判断，处理循环和知识库未命中的情况。</p></div></div>
+      <article class="project"><div class="project-main"><div><span class="tag">个人项目 · AI 应用</span><h3>AI Agent 企业知识助手</h3><p>面向企业内部制度查询，连接 HTTP 问答接口、本地模型决策与文档检索。让用户通过提问，从本地制度文本中查找相关信息。</p><div class="project-tags"><span>Python 3.12</span><span>FastAPI</span><span>Qwen3 1.7B</span><span>ChromaDB</span><span>Docker Compose</span></div><a class="project-link" id="project-link" target="_blank" rel="noopener noreferrer" href="https://github.com/Heibaixiong1118/ai-agent-study.git">查看项目仓库</a></div><div class="project-facts"><div class="fact"><b>4<small>轮</small></b><span>Agent 决策循环上限</span></div><div class="fact"><b>5<small>个</small></b><span>最多检索候选片段</span></div><p class="fact-description">通过轮次限制与检索相关性判断，处理循环和知识库未命中的情况。</p></div></div>
         <div class="project-details"><div><div class="detail-label mono">01 / AGENT</div><h4>结构化决策与工具分发</h4><p>解析模型的 JSON 决策，分发 rag_search、text_length 工具，并将结果回传至决策流程。</p></div><div><div class="detail-label mono">02 / RETRIEVAL</div><h4>本地知识检索</h4><p>切分文档、生成向量并写入 ChromaDB；结合相似度与词面证据，筛选相关片段。</p></div><div><div class="detail-label mono">03 / ENGINEERING</div><h4>索引维护与容器部署</h4><p>通过文档及 Embedding 配置指纹检查更新索引，配置数据卷持久化与宿主机模型连接。</p></div></div>
         <details class="technical-boundary"><summary>实现细节与当前边界</summary><p>工具调用采用自定义 JSON 决策与 Python 分发，未使用模型原生 tool_calls。当前 RAG 返回检索片段，不包含来源引用生成。MCP 为独立的进程内 Client / Server hello(name) 示例，rag_search 与 text_length 未注册为 MCP 工具。Ollama 运行于宿主机，Docker Compose 运行 FastAPI 并持久化 ChromaDB 数据。</p></details>
       </article>
     </section>
-    <section class="section" id="skills" aria-labelledby="skills-title"><div class="section-heading"><h2 id="skills-title"><span class="number mono">02</span>技术能力</h2><span class="mono">TOOLS & PRACTICE</span></div>
+    <section class="section" id="skills" aria-labelledby="skills-title"><div class="section-heading"><h2 id="skills-title"><span class="number mono">02</span>技术能力</h2><span class="mono">TOOLS &amp; PRACTICE</span></div>
       <div class="skills-grid"><article class="skill"><span class="skill-symbol mono" aria-hidden="true">Py</span><div><h3>Python 与后端开发</h3><p>使用 FastAPI 构建问答接口，以 Pydantic 校验请求数据，编写业务流程与工具分发逻辑。</p><footer class="mono">Python 3.12 / FastAPI / Pydantic</footer></div></article><article class="skill"><span class="skill-symbol mono" aria-hidden="true">{ }</span><div><h3>LLM 与 Agent</h3><p>本地接入 Qwen，实践提示词约定、JSON 决策解析与多轮执行；完成独立 MCP 工具调用示例。</p><footer class="mono">Ollama / Qwen / MCP Python SDK</footer></div></article><article class="skill"><span class="skill-symbol mono" aria-hidden="true">[·]</span><div><h3>RAG 与向量检索</h3><p>实践文档切分、Embedding 生成、向量索引与相关性判断，处理内容变更及检索未命中。</p><footer class="mono">Sentence Transformers / ChromaDB</footer></div></article><article class="skill"><span class="skill-symbol mono" aria-hidden="true">&gt;_</span><div><h3>部署与工程实践</h3><p>编写容器运行配置，持久化知识库数据，打通容器内 API 与宿主机 Ollama 的连接。</p><footer class="mono">Docker / Docker Compose</footer></div></article></div>
     </section>
-    <section class="section" id="about" aria-labelledby="about-title"><div class="section-heading"><h2 id="about-title"><span class="number mono">03</span>关于我</h2><span class="mono">BEYOND THE CODE</span></div><div class="about-grid"><div><h3>在实践中理解 AI 应用</h3><p>从 Python 接口开发出发，逐步连接模型调用、工具执行与知识检索。希望继续积累 AI Agent 和大模型应用开发经验，在真实场景中提升工程能力。</p></div><div class="learning"><h3>把执行过程想清楚</h3><p>学习源码时，习惯代入具体输入，逐步模拟数据流与函数执行，再运行验证。关注功能是否可运行，也关注能否准确解释实现方式。</p></div></div><div class="education" id="education" hidden><h3 id="education-school"></h3><p id="education-detail"></p></div><div class="contact" id="contact" hidden><h3>与我联系</h3><div class="contact-links" id="contact-links"></div></div></section>
-    <div class="setup-note owner-only" id="setup-note"><p>把这页变成你的简历：填写姓名、教育经历和联系方式。</p><button class="text-button" type="button" data-edit>填写个人资料</button></div>
-    <footer class="site-footer"><span><span id="footer-name">AI Agent 开发者</span><span class="mono"> · PERSONAL RESUME</span></span><div><button class="text-button owner-only" type="button" id="export-page">导出网页</button><span class="owner-only" aria-hidden="true">&nbsp; / &nbsp;</span><a href="#main">回到顶部</a></div></footer>
+    <section class="section" id="about" aria-labelledby="about-title"><div class="section-heading"><h2 id="about-title"><span class="number mono">03</span>关于我</h2><span class="mono">BEYOND THE CODE</span></div><div class="about-grid"><div><h3>在实践中理解 AI 应用</h3><p>从 Python 接口开发出发，逐步连接模型调用、工具执行与知识检索。希望继续积累 AI Agent 和大模型应用开发经验，在真实场景中提升工程能力。</p></div><div class="learning"><h3>把执行过程想清楚</h3><p>学习源码时，习惯代入具体输入，逐步模拟数据流与函数执行，再运行验证。关注功能是否可运行，也关注能否准确解释实现方式。</p></div></div><div class="education" id="education"><h3 id="education-school">南宁理工学院</h3><p id="education-detail">本科 · 电气工程及其自动化</p></div><div class="contact" id="contact"><h3>与我联系</h3><div class="contact-links" id="contact-links"><a href="mailto:2632646392%40qq.com">2632646392@qq.com</a><a href="tel:17687552273">17687552273</a><a href="https://github.com/Heibaixiong1118" target="_blank" rel="noopener noreferrer">GitHub 主页</a></div></div></section>
+    <div class="setup-note owner-only" id="setup-note" hidden=""><p>把这页变成你的简历：填写姓名、教育经历和联系方式。</p><button class="text-button" type="button" data-edit="">填写个人资料</button></div>
+    <footer class="site-footer"><span><span id="footer-name">江伟华</span><span class="mono"> · PERSONAL RESUME</span></span><div><button class="text-button owner-only" type="button" id="export-page">导出网页</button><span class="owner-only" aria-hidden="true">&nbsp; / &nbsp;</span><a href="#main">回到顶部</a></div></footer>
   </main>
   <dialog id="editor" aria-labelledby="editor-title" aria-describedby="editor-description"><div class="dialog-head"><div><h2 id="editor-title">填写你的资料</h2><p id="editor-description">留空的项目不会展示。保存仅对当前浏览器生效；导出网页可带走已填写的内容，不会同步修改线上版本。</p></div><button class="close-button" type="button" id="close-editor" aria-label="关闭编辑">×</button></div>
     <form class="profile-form" id="profile-form"><div class="form-grid">
@@ -68,8 +67,8 @@
       <div class="form-label">教育经历（选填）</div><label class="field full">学校<input name="school" maxlength="150" placeholder="学校全称"></label><label class="field">专业<input name="major" maxlength="100" placeholder="你的专业"></label><label class="field">学历<input name="degree" maxlength="40" placeholder="例如：本科"></label><label class="field full">就读时间<input name="period" maxlength="80" placeholder="例如：2022.09 – 2026.06"></label>
     </div><div class="form-actions"><small>联系方式会显示在页面中，也会包含在导出文件里。</small><div><button class="button" id="cancel-editor" type="button">取消</button><button class="button primary" type="submit">保存资料</button></div></div></form>
   </dialog>
-  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
-  <script type="application/json" id="profile-data">{"name":"","role":"大模型应用开发 · 实习 / 校招","city":"","status":"","email":"","phone":"","github":"","projectUrl":"","bio":"围绕 Python、FastAPI 与本地大模型，实践 Agent 工具分发和 RAG 知识检索。关注清晰的实现边界，以及从接口到部署的完整链路。","school":"","major":"","degree":"","period":""}</script>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden=""></div>
+  <script type="application/json" id="profile-data">{"name":"江伟华","role":"大模型应用开发 · 实习 / 校招","city":"深圳","status":"应届生；可随时到岗","email":"2632646392@qq.com","phone":"17687552273","github":"https://github.com/Heibaixiong1118","projectUrl":"https://github.com/Heibaixiong1118/ai-agent-study.git","bio":"围绕 Python、FastAPI 与本地大模型，实践 Agent 工具分发和 RAG 知识检索。关注清晰的实现边界，以及从接口到部署的完整链路。","school":"南宁理工学院","major":"电气工程及其自动化","degree":"本科","period":""}</script>
   <script>
     (() => {
       'use strict';
@@ -164,5 +163,6 @@
       }
     })();
   </script>
-</body>
-</html>
+
+
+</body><div id="immersive-translate-browser-popup" style="all: initial"></div></html>
