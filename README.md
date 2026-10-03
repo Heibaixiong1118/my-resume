@@ -1,6 +1,20 @@
-# my-resume
+# AI Agent 开发者 · 个人主页
 
-个人简历主页，使用 HTML、CSS 和 JavaScript，无需安装依赖或构建。
+> 大模型应用开发 · 个人简历与项目展示
+
+在线访问：[打开个人主页](https://heibaixiong1118.github.io/my-resume/)
+
+## 这个仓库是什么
+
+个人简历主页，使用 HTML、CSS 和 JavaScript，单文件、无需安装依赖或构建。
+页面包含简历资料编辑、Markdown 简历下载、网页导出，以及手机布局。
+
+## 文件结构
+
+```text
+index.html   网页源码，包含页面结构、样式和交互
+README.md    仓库介绍和更新说明
+```
 
 ## 本地查看
 
@@ -20,9 +34,8 @@
 导出的网页会隐藏编辑按钮，适合分享或部署。
 也可以直接编辑 `index.html` 中 `id="profile-data"` 的 JSON 来填写默认资料。
 
-## 发布网站
+## 自动发布
 
-将 `index.html` 上传到静态网站托管服务即可。
-GitHub 仓库用于保存文件；当前没有配置自动部署。
-
-页面包含简历资料编辑、Markdown 简历下载、网页导出，以及手机布局。
+网页由 GitHub Pages 托管。`main` 分支根目录是发布来源。
+更新并提交 `index.html` 后，GitHub 会自动发布，访问网址保持不变。
+发布状态可以在仓库的 Actions 或 Deployments 中查看。
